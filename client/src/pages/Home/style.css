@@ -1,0 +1,80 @@
+/*-----------------------------------*\
+ * #BANNER
+\*-----------------------------------*/
+.banner {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
+  width: 100%;
+  min-height: 100vh;
+  padding-block: var(--section-padding);
+  display: flex;
+  align-items: center;
+}
+
+.banner-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+.banner .container {
+  width: 100%;
+}
+
+.banner-subtitle {
+  /* color: var(--eerie-black); */
+  color: white;
+  font-size: var(--fs-4);
+  font-weight: var(--fw-600);
+  margin-bottom: 20px;
+}
+
+.banner-title {
+  color: white;
+  margin-bottom: 35px;
+  max-width: 12ch;
+}
+
+/*-----------------------------------*\
+ * #SERVICE
+\*-----------------------------------*/
+
+.service {
+  padding-block: 45px;
+}
+
+.service-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.service-item {
+  max-width: 235px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+}
+
+.service-item-icon {
+  width: 45px;
+}
+
+.service-item-icon img {
+  margin-inline: auto;
+}
+
+.service-item-title {
+  color: var(--eerie-black);
+  font-size: var(--fs-7);
+  font-weight: var(--fw-600);
+}
